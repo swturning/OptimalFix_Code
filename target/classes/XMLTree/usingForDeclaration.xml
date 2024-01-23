@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contractPartDefinition>
+         <usingForDeclaration>using<identifier>SafeMath</identifier>for<typeName>
+               <elementaryTypeName>uint</elementaryTypeName>
+            </typeName>;</usingForDeclaration>
+      </contractPartDefinition>

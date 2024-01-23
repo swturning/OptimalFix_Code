@@ -1,0 +1,29 @@
+BECToken
+漏洞检测时间为1153
+模式: sdm001 风险等级: 1   语言: Solidity 行: 5  结束行：5   代码内容: a
+
+模式: sdm001 风险等级: 1   语言: Solidity 行: 9  结束行：9   代码内容: b
+
+模式: SIO001 风险等级: 3   语言: Solidity 行: 119  结束行：119   代码内容: amount=cnt*_value
+补丁生成时间：57
+
+0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4fixed.sol 285ms
+0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4fixed.sol 282ms
+
+FibonacciBalance.sol
+漏洞检测时间为861
+模式: suc001 风险等级: 3   语言: Solidity 行: 17  结束行：17   代码内容: fibonacciLibrary.delegatecall(msg.data)
+补丁生成时间：16
+FibonacciBalancefixed.sol 153ms
+程序执行时间:2482
+
+漏洞检测时间为669
+模式: SIO004 风险等级: 3   语言: Solidity 行: 5  结束行：5   代码内容: balanceOf[msg.sender]-=_value
+
+模式: SIO004 风险等级: 3   语言: Solidity 行: 6  结束行：6   代码内容: balanceOf[_to]+=_value
+
+补丁生成时间：34
+字符串已成功写入文件。
+transferfixed.sol 132ms
+transferfixed.sol 113ms
+程序执行时间:3760

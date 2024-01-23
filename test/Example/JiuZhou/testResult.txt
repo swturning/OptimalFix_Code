@@ -1,0 +1,103 @@
+badTxorigin
+模式: sto002 风险等级: 3   语言: Solidity 行: 9  结束行：9   代码内容: tx.origin==owner
+
+
+漏洞检测时间为803
+补丁生成时间：12
+程序执行时间:2429
+badTxorigin.sol 120ms
+badTxoriginfixed.sol 126ms
+null
+integerDivision
+模式: sdm001 风险等级: 1   语言: Solidity 行: 20  结束行：20   代码内容: coefficient
+
+
+漏洞检测时间为789
+补丁生成时间：15
+程序执行时间:2471
+integerDivision.sol 127ms
+integerDivisionfixed.sol 156ms
+null
+Overflow
+模式: SIO004 风险等级: 3   语言: Solidity 行: 6  结束行：6   代码内容: sellerBalance+=value
+
+
+漏洞检测时间为739
+补丁生成时间：36
+程序执行时间:4054
+Overflow.sol 83ms
+Overflowfixed.sol 101ms
+Overflowfixed.sol 101ms
+re-entrancy
+模式: ree001 风险等级: 3   语言: Solidity 行: 13  结束行：13   代码内容: call.value(userBalance[msg.sender])("")
+
+
+漏洞检测时间为978
+补丁生成时间：39
+程序执行时间:3243
+re-entrancy.sol 161ms
+re-entrancyfixed.sol 217ms
+null
+simpleDAO
+模式: ree001 风险等级: 3   语言: Solidity 行: 12  结束行：12   代码内容: call.value(amount)("")
+
+
+漏洞检测时间为911
+补丁生成时间：28
+程序执行时间:2586
+[error] simpleDAO.sol: Error: The specified node does not exist
+[error]     at FileLevelConstantContext.getChild (D:\DectionContract\SolidityDetection-main\start\node_modules\@solidity-parser\parser\dist\index.cjs.js:9354:15)
+[error]     at FileLevelConstantContext.getRuleContext (D:\DectionContract\SolidityDetection-main\start\node_modules\@solidity-parser\parser\dist\index.cjs.js:9417:19)
+simpleDAO
+模式: ree001 风险等级: 3   语言: Solidity 行: 11  结束行：11   代码内容: call.value(amount)("")
+
+
+漏洞检测时间为844
+补丁生成时间：19
+程序执行时间:2406
+simpleDAO.sol 145ms
+simpleDAOfixed.sol 145ms
+null
+SplitReentrant
+模式: ree001 风险等级: 3   语言: Solidity 行: 16  结束行：16   代码内容: call.value(_money)("")
+
+
+漏洞检测时间为876
+补丁生成时间：23
+程序执行时间:2492
+SplitReentrant.sol 154ms
+SplitReentrantfixed.sol 162ms
+null
+SuicideEasily
+模式: sus001 风险等级: 2   语言: Solidity 行: 16  结束行：16   代码内容: selfdestruct(_Beneficiary)
+
+
+漏洞检测时间为860
+补丁生成时间：19
+程序执行时间:2440
+SuicideEasily.sol 161ms
+SuicideEasilyfixed.sol 128ms
+null
+underFlow
+模式: SIO003 风险等级: 3   语言: Solidity 行: 9  结束行：9   代码内容: balances[msg.sender]-_value>=0
+
+
+模式: SIO004 风险等级: 3   语言: Solidity 行: 11  结束行：11   代码内容: balances[_to]+=_value
+
+
+漏洞检测时间为776
+补丁生成时间：20
+程序执行时间:2393
+underFlow.sol 132ms
+underFlowfixed.sol 146ms
+null
+unhandledException
+模式: suc001 风险等级: 3   语言: Solidity 行: 24  结束行：24   代码内容: user[i].call.value(money)("")
+
+
+漏洞检测时间为848
+补丁生成时间：11
+程序执行时间:2462
+unhandledException.sol 177ms
+unhandledExceptionfixed.sol 181ms
+null
