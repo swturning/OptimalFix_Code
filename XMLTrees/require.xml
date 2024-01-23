@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<statement>
+    <simpleStatement>
+        <expressionStatement>
+            <expression>
+                <functionCall>
+                    <functionName>
+                        <identifier>require</identifier>
+                    </functionName>
+                    <callArguments>(
+                        <expression>
+                            <expression>
+                                <primaryExpression>
+                                    <identifier>owner</identifier>
+                                </primaryExpression>
+                            </expression>
+                            <comparison>==</comparison>
+                            <expression>
+                                <environmentalVariable>msg.sender</environmentalVariable>
+                            </expression>
+                        </expression>
+                        ,
+                        <expression>
+                            <primaryExpression>
+                                <stringLiteral>"address error"</stringLiteral>
+                            </primaryExpression>
+                        </expression>)</callArguments>
+                </functionCall>
+            </expression>
+        </expressionStatement>
+    </simpleStatement>;</statement>

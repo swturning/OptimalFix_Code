@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contractPartDefinition>
+         <modifierDefinition>modifier
+             <identifier>onlyOwner</identifier>
+            <parameterList>()</parameterList>
+            <block>{
+                <statement>
+                  <placeholderStatement>_</placeholderStatement>;
+            </statement>}
+            </block>
+         </modifierDefinition>
+      </contractPartDefinition>

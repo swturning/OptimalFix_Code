@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<statement>
+                  <simpleStatement>
+                     <expressionStatement>
+                        <expression>
+                           <expression>
+                              <primaryExpression>
+                                 <identifier>owner</identifier>
+                              </primaryExpression>
+                           </expression>=<expression>
+                              <environmentalVariable>msg.sender</environmentalVariable>
+                           </expression>
+                        </expression>
+                     </expressionStatement>
+                  </simpleStatement>;</statement>
