@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contractPartDefinition>
+         <stateVariableDeclaration>
+            <typeName>
+               <elementaryTypeName>address</elementaryTypeName>
+            </typeName>
+            <visibleType>public</visibleType>
+            <identifier>owner</identifier>;</stateVariableDeclaration>
+      </contractPartDefinition>
